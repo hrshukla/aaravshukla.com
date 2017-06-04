@@ -8,8 +8,8 @@ build:
         theme: casper
         flags: --buildDrafts=true
     - s3sync:
-	key_id: $key_id
-        key_secret: $key_secret
-        bucket_url: $bucket_url
+	key_id: $KEY
+        key_secret: $SECRET
+        bucket_url: $URL
         source_dir: public/
         opts: --add-header=Cache-Control:max-age=604800
