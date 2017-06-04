@@ -1,0 +1,35 @@
+BaseUrl= "http://www.aaravshukla.com/"
+LanguageCode= "en"
+Title= "A blog about trucks"
+paginate = 5
+DisqusShortname = "YOUR_SHORT_NAME_HERE"
+Copyright = "All rights reserved - 2015"
+canonifyurls = true
+
+[params]
+  description = "A blog about trucks"
+  metadescription = ""
+  cover = "images/cover.jpg"
+  author = "Aarav Shukla"
+  authorlocation = "Brisbane, Australia"
+  authorwebsite = "http://www.aaravshukla.com"
+  bio= "my bio"
+  logo = "images/logo.jpg"
+  googleAnalyticsUserID = ""
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = ""
+  githubName = ""
+  twitterName = ""
+  # facebookName = ""
+  # linkedinName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "default"
+
+  [params.social]
+    twitter = ""
+
