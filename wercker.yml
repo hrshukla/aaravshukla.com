@@ -3,10 +3,6 @@ build:
   steps:
     - install-packages:
         packages: git
-    - script:
-        name: download theme
-        code: |
-            $(git clone https://github.com/vjeantet/hugo-theme-casper ./themes/casper)
     - arjen/hugo-build:
         version: "0.14"
         theme: casper
